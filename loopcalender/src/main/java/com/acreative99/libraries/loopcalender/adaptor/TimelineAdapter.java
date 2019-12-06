@@ -139,6 +139,7 @@ public class TimelineAdapter extends RecyclerView.Adapter<TimelineAdapter.ViewHo
         }
 
         boolean bind(int month, int day, int dayOfWeek, int year, int position) {
+            yearView.setTextColor(timelineView.getYearTextColor());
             monthView.setTextColor(timelineView.getMonthTextColor());
             dateView.setTextColor(timelineView.getDateTextColor());
             dayView.setTextColor(timelineView.getDayTextColor());
@@ -164,12 +165,11 @@ public class TimelineAdapter extends RecyclerView.Adapter<TimelineAdapter.ViewHo
                     monthView.setTextColor(timelineView.getDisabledDateColor());
                     dateView.setTextColor(timelineView.getDisabledDateColor());
                     dayView.setTextColor(timelineView.getDisabledDateColor());
-
+                    yearView.setTextColor(timelineView.getDisabledDateColor());
                     rootView.setBackground(null);
                     return true;
                 }
             }
-
             return false;
         }
     }

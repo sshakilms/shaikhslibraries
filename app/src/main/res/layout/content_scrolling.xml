@@ -16,6 +16,10 @@
         android:id="@+id/datepickerloop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:yearTextColor="@color/colorPrimary"
+        app:monthTextColor="@color/colorPrimary"
+        app:dateTextColor="@color/colorPrimaryDark"
+        app:dayTextColor="@color/colorPrimary"
         />
     </LinearLayout>
 
