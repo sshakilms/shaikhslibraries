@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ShaikhsLibraries.iml" filepath="$PROJECT_DIR$/ShaikhsLibraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loopcalender/loopcalender.iml" filepath="$PROJECT_DIR$/loopcalender/loopcalender.iml" />
+    </modules>
+  </component>
+</project>
